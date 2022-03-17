@@ -1,0 +1,86 @@
+{
+  "RunMode": "testnet",
+  "DBConfig": {
+    "Debug": false,
+    "URL": "linq",
+    "Scheme": "linq",
+    "User": "linq",
+    "Password": "linq"
+  },
+  "LinQConfig": {
+    "DefaultBootNodes": [
+      "enode://linq@0.0.0.0:0?discport=0",
+      "enode://linq@0.0.0.0:0?discport=0",
+      "enode://linq@0.0.0.0:0?discport=0",
+      "enode://linq@0.0.0.0:0?discport=0"
+    ],
+    "Addr": "0.0.0.0",
+    "Port": 0
+  },
+  "Chains": [
+    {
+      "ChainName": "Ethereum",
+      "ChainID": 5,
+      "ListenSlot": 5,
+      "BatchSize": 5,
+      "defer": 1,
+      "Nodes": [
+        {
+          "Url": ""
+        }
+      ],
+      "CCMContract": "",
+      "NFTProxyContract": "",
+      "NFTWrapperContract": "",
+      "NFTQueryContract": ""
+    },
+    {
+      "ChainName": "BSC",
+      "ChainID": 97,
+      "ListenSlot": 1,
+      "BatchSize": 5,
+      "defer": 1,
+      "Nodes": [
+        {
+          "Url": ""
+        }
+      ],
+      "CCMContract": "",
+      "NFTProxyContract": "",
+      "NFTWrapperContract": "",
+      "NFTQueryContract": ""
+    },
+    {
+      "ChainName": "PlatOn",
+      "ChainID": 210309,
+      "ListenSlot": 5,
+      "BatchSize": 5,
+      "defer": 5,
+      "Nodes": [
+        {
+          "Url": ""
+        }
+      ],
+      "CCMContract": "",
+      "NFTProxyContract": "",
+      "NFTWrapperContract": "",
+      "NFTQueryContract": ""
+    },
+    {
+      "ChainName": "Klaytn",
+      "ChainID": 1001,
+      "ListenSlot": 5,
+      "BatchSize": 5,
+      "defer": 5,
+      "Nodes": [
+        {
+          "Url": ""
+        }
+      ],
+      "CCMContract": "",
+      "NFTProxyContract": "",
+      "NFTWrapperContract": "",
+      "NFTQueryContract": ""
+    }
+  ]
+}
